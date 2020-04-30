@@ -1,0 +1,68 @@
+.portfolioProjectsList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  column-count: 2;
+  column-gap: 5em;
+  padding: 5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+img {
+  box-shadow: 9px 10px 10px 1px grey;
+  border-radius: 10px;
+}
+
+.portfolioTitle {
+  font-size: 40px;
+  margin-bottom: -40px;
+}
+
+.butterflyImg {
+  width: 60%;
+  height: auto;
+}
+
+.ncNewsImg {
+  width: 70%;
+  height: 70%;
+}
+
+.butterflyInfo {
+  width: 50%;
+  margin-left: 195px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+}
+
+.ncNewsInfo {
+  width: 50%;
+  margin-left: 210px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+}
+
+.butterflyList {
+  background-color: #f5f8fa;
+  border-radius: 5px;
+  box-shadow: 3px 5px 5px 1px grey;
+}
+
+.butterflyList:hover {
+  background-color: rgb(245, 241, 241);
+}
+
+.ncNewsList {
+  background-color: #f5f8fa;
+  border-radius: 5px;
+  box-shadow: 3px 5px 5px 1px grey;
+}
