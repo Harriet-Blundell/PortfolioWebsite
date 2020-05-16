@@ -10,8 +10,7 @@ import NavBar from './components/NavBar'
 class App extends React.Component {
   state = {
     navBarItems: [
-      { name: 'home', label: 'HOME', link: '/' },
-      { name: 'about', label: 'ABOUT', link: '/about' },
+      { name: 'home', label: 'HARRIET BLUNDELL', link: '/' },
       { name: 'portoflio', label: 'PORTFOLIO', link: '/portfolio' },
       { name: 'contact', label: 'CONTACT', link: '/contact' },
     ],
@@ -23,7 +22,6 @@ class App extends React.Component {
         <NavBar sideBarItems={this.state.navBarItems} />
         <Router className='routeDiv'>
           <Home path='/' />
-          <About path='/about' />
           <Portfolio path='portfolio' />
           <Contact path='/contact' />
         </Router>

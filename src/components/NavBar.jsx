@@ -8,7 +8,7 @@ const NavBar = (props) => {
         {props.sideBarItems.map((item) => {
           return (
             <Link to={item.link} className='menuItems'>
-              <li className='pageLink'>{item.label}</li>
+              <li className='pageLink'>{item.label} </li>
             </Link>
           )
         })}
