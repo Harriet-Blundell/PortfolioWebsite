@@ -5,7 +5,7 @@ import './Portfolio.css'
 
 const Portfolio = () => {
   return (
-    <div>
+    <div className='portfolioContainer'>
       <h1 className='portfolioTitle'>Portfolio</h1>
       <ul className='portfolioProjectsList'>
         <li className='butterflyList'>
@@ -15,8 +15,9 @@ const Portfolio = () => {
             alt='butterfly app'
             className='butterflyImg'
           />
+
           <p className='butterflyInfo'>
-            Buterfly Hunt is a marker based Augmented Reality game. It is made
+            Butterfly Hunt is a marker based Augmented Reality game. It is made
             up of a single page application built in Vue, which connects to a
             seperately hosted Web-AR application, with bespoke 3D butterflies
             made in Blender.
