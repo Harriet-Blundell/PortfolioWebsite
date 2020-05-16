@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.css'
-import About from './components/About'
 import Home from './components/Home'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'

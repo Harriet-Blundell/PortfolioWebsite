@@ -17,7 +17,7 @@ h2 {
 }
 
 .guardianImg {
-  margin-left: 200px;
+  margin-left: 210px;
   width: 300px;
   height: 500px;
   box-shadow: 1px 5px 5px 1px grey;
@@ -31,7 +31,7 @@ h2 {
 }
 
 .ncNewsImg {
-  margin-left: 70px;
+  margin-left: 65px;
   width: 600px;
   height: 400px;
   box-shadow: 1px 5px 5px 1px grey;
@@ -55,7 +55,7 @@ h2 {
 
 .ncNewsInfo {
   width: 600px;
-  margin-left: 70px;
+  margin-left: 62px;
   margin-top: 20px;
   font-size: 18px;
 }
@@ -93,6 +93,91 @@ h2 {
   margin-top: 40px;
 }
 
+.guardianBtn {
+  background-color: rgb(150, 30, 30);
+  width: 200px;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 4px 10px 10px 0px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none;
+  cursor: pointer;
+}
+
+.butterflyHuntBtn {
+  background-color: rgb(150, 30, 30);
+  display: inline-block;
+  width: 200px;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 4px 0px 10px 30px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none;
+  cursor: pointer;
+}
+
+.butterflyHuntHostedBtn {
+  background-color: rgb(150, 30, 30);
+  display: inline-block;
+  width: 200px;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 4px 0px 10px 30px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none;
+  cursor: pointer;
+}
+
+.ncNewsBtn {
+  background-color: rgb(150, 30, 30);
+  width: 200px;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 4px 0px 10px 30px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none;
+  cursor: pointer;
+}
+
+.ncNewsHostedBtn {
+  background-color: rgb(150, 30, 30);
+  width: 200px;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 4px 0px 10px 30px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1679px) {
   .guardianImg {
     margin-left: 150px;
@@ -117,5 +202,36 @@ h2 {
   .ncNewsInfo {
     width: 490px;
     margin-left: 60px;
+  }
+
+  .ncNewsBtn {
+    margin-right: 20px;
+  }
+
+  .ncNewsHostedBtn {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .portfolioProjectsList {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .guardianList {
+    margin-bottom: 40px;
+  }
+
+  .butterflyHuntBtn {
+    margin-right: 30px;
+  }
+
+  .butterflyHuntHostedBtn {
+    margin-right: 30px;
+  }
+
+  .guardianBtn {
+    margin-left: 20px;
   }
 }

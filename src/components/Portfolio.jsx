@@ -21,6 +21,9 @@ const Portfolio = () => {
             retrieve articles and article information from The Guardian and
             serve them to the user in a minimalist user-friendly mobile app.
           </p>
+          <a href='https://github.com/Harriet-Blundell/Guardian'>
+            <button className='guardianBtn'>GITHUB REPO</button>
+          </a>
         </li>
 
         <li className='butterflyList'>
@@ -37,6 +40,13 @@ const Portfolio = () => {
             seperately hosted Web-AR application, with bespoke 3D butterflies
             made in Blender.
           </p>
+          <a href='https://github.com/Harriet-Blundell/ScavengerHuntAR'>
+            <button className='butterflyHuntBtn'>GITHUB REPO</button>
+          </a>
+
+          <a href='https://butterflyhunt.co.uk/'>
+            <button className='butterflyHuntHostedBtn'>LIVE VERSION</button>
+          </a>
         </li>
 
         <li className='ncNewsList'>
@@ -47,6 +57,14 @@ const Portfolio = () => {
             users can rate web content and have discussions in the style of
             Reddit.
           </p>
+
+          <a href='https://github.com/Harriet-Blundell/frontend-nc-news'>
+            <button className='ncNewsBtn'>GITHUB REPO</button>
+          </a>
+
+          <a href='https://hb-nc-news.netlify.com/'>
+            <button className='ncNewsHostedBtn'>LIVE VERSION</button>
+          </a>
         </li>
       </ul>
     </div>
