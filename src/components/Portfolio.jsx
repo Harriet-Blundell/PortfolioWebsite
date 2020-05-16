@@ -1,6 +1,7 @@
 import React from 'react'
 import ButterflyApp2 from '../Images/ButterflyApp2.png'
 import NCNews from '../Images/NCNews.png'
+import theGuardian from '../Images/theGuardian.jpg'
 import './Portfolio.css'
 
 const Portfolio = () => {
@@ -8,6 +9,20 @@ const Portfolio = () => {
     <div className='portfolioContainer'>
       <h1 className='portfolioTitle'>Portfolio</h1>
       <ul className='portfolioProjectsList'>
+        <li className='guardianList'>
+          <h2>Guardian Summary</h2>
+          <img
+            src={theGuardian}
+            alt='the guardian app'
+            className='guardianImg'
+          />
+          <p className='guardianInfo'>
+            This project, Guardian Summary, uses the Guardians own API to
+            retrieve articles and article information from The Guardian and
+            serve them to the user in a minimalist user-friendly mobile app.
+          </p>
+        </li>
+
         <li className='butterflyList'>
           <h2>Butterfly Hunt Web AR App</h2>
           <img

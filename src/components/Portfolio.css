@@ -16,6 +16,13 @@ h2 {
   margin-bottom: -40px;
 }
 
+.guardianImg {
+  margin-left: 200px;
+  width: 300px;
+  height: 500px;
+  box-shadow: 1px 5px 5px 1px grey;
+}
+
 .butterflyImg {
   margin-left: 90px;
   width: 550px;
@@ -28,6 +35,14 @@ h2 {
   width: 600px;
   height: 400px;
   box-shadow: 1px 5px 5px 1px grey;
+}
+
+.guardianInfo {
+  width: 600px;
+  margin-top: 30px;
+  margin-left: 65px;
+  text-align: 'center';
+  font-size: 18px;
 }
 
 .butterflyInfo {
@@ -43,6 +58,17 @@ h2 {
   margin-left: 70px;
   margin-top: 20px;
   font-size: 18px;
+}
+
+.guardianList {
+  background-color: #f5f8fa;
+  border-radius: 5px;
+  box-shadow: 1px 5px 5px 1px grey;
+  display: grid;
+  grid-template-columns: 1fr;
+  list-style: none;
+  column-gap: 1em;
+  padding: 2em;
 }
 
 .butterflyList {
@@ -64,9 +90,18 @@ h2 {
   grid-template-columns: 1fr;
   list-style: none;
   padding: 2em;
+  margin-top: 40px;
 }
 
 @media only screen and (max-width: 1679px) {
+  .guardianImg {
+    margin-left: 150px;
+  }
+
+  .guardianInfo {
+    width: 480px;
+  }
+
   .butterflyImg {
     margin-left: 30px;
   }
@@ -76,10 +111,11 @@ h2 {
   }
 
   .ncNewsImg {
-    margin-left: 10px;
+    margin-left: 5px;
   }
 
   .ncNewsInfo {
-    width: 500px;
+    width: 490px;
+    margin-left: 60px;
   }
 }
