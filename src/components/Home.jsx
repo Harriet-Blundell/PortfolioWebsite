@@ -1,5 +1,7 @@
 import React from 'react'
 import HB from '../Images/HB.jpg'
+import githublogo from '../Images/githublogo.png'
+import linkedin from '../Images/linkedin.png'
 import './Home.css'
 
 const Home = () => {
@@ -21,6 +23,12 @@ const Home = () => {
           strive to try and implement Test Driven Development to produce clean
           code.
         </p>
+        <a href='https://github.com/Harriet-Blundell'>
+          <img src={githublogo} alt='github logo' className='githubLogo' />
+        </a>
+        <a href='https://www.linkedin.com/in/harriet-blundell-1b2b03151/'>
+          <img src={linkedin} alt='linkedin logo' className='linkedinLogo' />
+        </a>
       </p>
     </div>
   )

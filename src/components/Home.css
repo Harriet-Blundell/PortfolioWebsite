@@ -16,4 +16,26 @@
   width: 500px;
   margin-left: 70px;
   text-align: justify;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.githubLogo {
+  width: 80px;
+}
+
+.linkedinLogo {
+  width: 65px;
+  margin-left: 20px;
+  margin-bottom: 9px;
+}
+
+.githubLogo:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.linkedinLogo:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
 }
