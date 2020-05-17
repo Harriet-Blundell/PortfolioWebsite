@@ -15,10 +15,6 @@
   grid-area: mainContent;
 }
 
-.homePageTitle {
-  font-size: 100px;
-}
-
 .navBar {
   grid-area: nav;
   background-color: white;
